@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Open+Sans:wght@400;700&family=Work+Sans:wght@400;600;700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* nav design starts here */
+nav{
+    background-color: #FFFFFF;
+}
+.nav-container{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1920px;
+}
+.logo-container{
+    display: flex;
+    width: 50%;
+    text-align: center;
+
+}
+.logo-container img{
+    padding-top: 44px;
+    padding-bottom: 46px;
+    padding-right: 20px;
+}
+.logo-container p{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+}
+.gamer-section{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-items-container{
+    align-items: center;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items-container a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+.follow-us-btn{
+    text-align: center;
+    color: #3C354F;
+    font-weight: 700;
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+/* nav design ends here */
+
+/* Banner design Starts here */
+.banner-container{
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+}
+
+.banner-text{
+    width: 50%;
+    text-align: center;
+}
+
+.banner-image{
+    width: 50%;
+}
+
+.banner-image img{
+    width: 100%;
+    height: auto;
+}
+
+.banner-text{
+    padding-top: 150px;
+}
+
+.banner-text h4{
+    margin-bottom: 3px;
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner-text h1{
+    text-align: center;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-text p{
+    font-size: 20px;
+    text-align: center;
+    font-family: Work Sans;
+    line-height: normal;
+}
+
+.fa-brands{
+    padding: 15px;
+}
+
+.banner-button-1{
+    color: #FFF;
+    font-size: 20px;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    justify-content: center;
+    margin-right: 20px;
+    border-style: none;
+}
+
+.banner-button-2{
+    color: #FFF;
+    font-size: 20px;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border-style: none;
+}
+
+/* Banner Design ends here */
