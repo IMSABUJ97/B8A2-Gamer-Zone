@@ -125,6 +125,7 @@ nav{
 
 .banner-button-1{
     color: #FFF;
+    font-weight: bold;
     font-size: 20px;
     display: inline-flex;
     padding: 21px 40px;
@@ -139,6 +140,7 @@ nav{
 
 .banner-button-2{
     color: #FFF;
+    font-weight: bold;
     font-size: 20px;
     display: inline-flex;
     padding: 21px 40px;
@@ -150,3 +152,78 @@ nav{
 }
 
 /* Banner Design ends here */
+
+/* Group Design starts here */
+.group-container{
+    background-color: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.group-image{
+    width: 868px;
+    height: 489px;
+}
+
+.group-container{
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+}
+
+.group-text{
+    width: 1920px;
+    height: 600px;
+    align-items: right;
+}
+
+.group-title{
+    width: 400px;
+    padding-top: 100px;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.group-description{
+    width: 400px;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.group-button{
+    color: #FFF;
+    padding: 21px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border-style: none;
+}
+
+.purpose-title{
+    color: #534C64;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.purpose-description{
+    color: #534C64;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+/* Group Design end here */
